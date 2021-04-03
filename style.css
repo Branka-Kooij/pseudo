@@ -1,0 +1,62 @@
+body {
+  background: #f7f3e9;
+}
+
+.google:hover {
+  color: pink;
+  font-weight: bold;
+}
+
+.active:active {
+  background: red;
+}
+
+.visited:visited {
+  color: yellow;
+  text-decoration: none;
+}
+
+.inpout1:focus {
+  color: green;
+  width: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  background: darkblue;
+  color: white;
+}
+
+li a {
+  display: inline;
+  padding: 8px;
+  background: lightblue;
+}
+
+.currentPage {
+  background: lightgray
+}
+
+.currentPage:hover {
+  background-color: pink;
+  font-style: italic;
+}
+
+ul:nth-child(2):hover {
+  background: purple;
+  color:white
+}
+
+input:focus {
+  border: solid red 3px;
+  color: green;
+  width: 200px;
+  height: 30px
+}
